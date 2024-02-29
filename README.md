@@ -24,7 +24,7 @@
 
      ```
      py -m venv venv
-     .env\Scriptsctivate
+     .\venv\Scripts\activate
      ```
 
 3. **Install dependencies:**
