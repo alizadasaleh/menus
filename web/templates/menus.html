@@ -1,0 +1,21 @@
+{% extends 'components/base.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>Menus</h1>
+    <div class="row">
+        {% for menu_name in menus %}
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">{{ menu_name }}</h2>
+                    <hr>
+                    {% load menu_tags %}
+                    {% draw_menu menu_name %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

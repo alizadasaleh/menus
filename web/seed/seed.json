@@ -1,0 +1,475 @@
+[
+  {
+    "model": "web.MenuItem",
+    "pk": 1,
+    "fields": {
+      "title": "Home",
+      "url": "/",
+      "name": "",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 2,
+    "fields": {
+      "title": "About Us",
+      "url": "/about/",
+      "name": "",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 3,
+    "fields": {
+      "title": "Services",
+      "url": "",
+      "name": "services",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 4,
+    "fields": {
+      "title": "Contact",
+      "url": "/contact/",
+      "name": "",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 5,
+    "fields": {
+      "title": "Web Development",
+      "url": "/services/web-development/",
+      "name": "",
+      "parent": 3,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 6,
+    "fields": {
+      "title": "Mobile App Development",
+      "url": "/services/mobile-app/",
+      "name": "",
+      "parent": 3,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 7,
+    "fields": {
+      "title": "Digital Marketing",
+      "url": "/services/digital-marketing/",
+      "name": "",
+      "parent": 3,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 8,
+    "fields": {
+      "title": "SEO Services",
+      "url": "/services/seo/",
+      "name": "",
+      "parent": 7,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 9,
+    "fields": {
+      "title": "Blog",
+      "url": "/blog/",
+      "name": "",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 10,
+    "fields": {
+      "title": "Our Team",
+      "url": "/about/our-team/",
+      "name": "",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 11,
+    "fields": {
+      "title": "History",
+      "url": "/about/history/",
+      "name": "",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 12,
+    "fields": {
+      "title": "Careers",
+      "url": "/about/careers/",
+      "name": "",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 13,
+    "fields": {
+      "title": "Testimonials",
+      "url": "/about/testimonials/",
+      "name": "",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 14,
+    "fields": {
+      "title": "FAQ",
+      "url": "/faq/",
+      "name": "",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 15,
+    "fields": {
+      "title": "Privacy Policy",
+      "url": "/privacy-policy/",
+      "name": "",
+      "parent": null,
+      "menu_name": "footer_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 16,
+    "fields": {
+      "title": "Terms of Service",
+      "url": "/terms-of-service/",
+      "name": "",
+      "parent": null,
+      "menu_name": "footer_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 17,
+    "fields": {
+      "title": "Contact Support",
+      "url": "/contact/support/",
+      "name": "",
+      "parent": 4,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 18,
+    "fields": {
+      "title": "Site Map",
+      "url": "/sitemap/",
+      "name": "",
+      "parent": null,
+      "menu_name": "footer_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 19,
+    "fields": {
+      "title": "Electronics",
+      "url": "/categories/electronics/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 20,
+    "fields": {
+      "title": "Clothing",
+      "url": "/categories/clothing/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 21,
+    "fields": {
+      "title": "Books",
+      "url": "/categories/books/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 22,
+    "fields": {
+      "title": "Home & Kitchen",
+      "url": "/categories/home-kitchen/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 23,
+    "fields": {
+      "title": "Sports & Outdoors",
+      "url": "/categories/sports-outdoors/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 24,
+    "fields": {
+      "title": "Beauty & Personal Care",
+      "url": "/categories/beauty-personal-care/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 25,
+    "fields": {
+      "title": "Toys & Games",
+      "url": "/categories/toys-games/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 26,
+    "fields": {
+      "title": "Furniture",
+      "url": "/categories/furniture/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 27,
+    "fields": {
+      "title": "Jewelry",
+      "url": "/categories/jewelry/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 28,
+    "fields": {
+      "title": "Health & Wellness",
+      "url": "/categories/health-wellness/",
+      "name": "",
+      "parent": null,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 30,
+    "fields": {
+      "title": "Smartphones",
+      "url": "/categories/electronics/smartphones/",
+      "name": "",
+      "parent": 19,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 31,
+    "fields": {
+      "title": "Laptops",
+      "url": "/categories/electronics/laptops/",
+      "name": "",
+      "parent": 19,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 32,
+    "fields": {
+      "title": "TVs & Home Entertainment",
+      "url": "/categories/electronics/tvs-home-entertainment/",
+      "name": "",
+      "parent": 19,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 34,
+    "fields": {
+      "title": "Men's Clothing",
+      "url": "/categories/clothing/mens/",
+      "name": "",
+      "parent": 20,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 35,
+    "fields": {
+      "title": "Women's Clothing",
+      "url": "/categories/clothing/womens/",
+      "name": "",
+      "parent": 20,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 36,
+    "fields": {
+      "title": "Kids' Clothing",
+      "url": "/categories/clothing/kids/",
+      "name": "",
+      "parent": 20,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 39,
+    "fields": {
+      "title": "Samsung",
+      "url": "/categories/electronics/smartphones/samsung/",
+      "name": "",
+      "parent": 30,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 40,
+    "fields": {
+      "title": "iPhone",
+      "url": "/categories/electronics/smartphones/iphone/",
+      "name": "",
+      "parent": 30,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 42,
+    "fields": {
+      "title": "Dell",
+      "url": "/categories/electronics/laptops/dell/",
+      "name": "",
+      "parent": 31,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 43,
+    "fields": {
+      "title": "HP",
+      "url": "/categories/electronics/laptops/hp/",
+      "name": "",
+      "parent": 31,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 44,
+    "fields": {
+      "title": "Iphone 5 Series",
+      "url": "/categories/electronics/smartphones/iphone/5series",
+      "name": "",
+      "parent": 40,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 45,
+    "fields": {
+      "title": "Iphone 5s",
+      "url": "/categories/electronics/smartphones/iphone/5series/5s",
+      "name": "",
+      "parent": 44,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 46,
+    "fields": {
+      "title": "Iphone 5",
+      "url": "/categories/electronics/smartphones/iphone/5series/5",
+      "name": "",
+      "parent": 44,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 47,
+    "fields": {
+      "title": "Iphone 6 Series",
+      "url": "/categories/electronics/smartphones/iphone/6series",
+      "name": "",
+      "parent": 40,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  },
+  {
+    "model": "web.MenuItem",
+    "pk": 48,
+    "fields": {
+      "title": "Iphone 6+",
+      "url": "/categories/electronics/smartphones/iphone/6series/6+",
+      "name": "",
+      "parent": 47,
+      "menu_name": "ecommerce_categories_menu"
+    }
+  }
+]

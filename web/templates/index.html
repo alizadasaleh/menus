@@ -1,0 +1,9 @@
+{% extends 'components/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Welcome to UpTrader</h1>
+    {% load menu_tags %}
+    {% draw_menu 'main_menu' %}
+</div>
+{% endblock %}
